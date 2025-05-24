@@ -1,4 +1,3 @@
 hours = 2
-convert = 3600
-seconds = hours * convert
+seconds = hours * 3600
 print(hours, "hour(s) is", seconds, "seconds.")
