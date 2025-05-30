@@ -1,8 +1,8 @@
 #Task 1. Simple Calculator with Match Case
 
 #propt user to enter the 2 numbers and operations they want to be excuted (calculated).
-num1 = input(" Enter the first number:")
-num2 = input("Enter the second number:")
+num1 = int(input("Enter the first number:"))
+num2 = int(input("Enter the second number:"))
 operations = str(input("Choose the operation (+, -, *, /):"))
 
 #calculator
