@@ -3,7 +3,7 @@
 #propt user to enter the 2 numbers and operations they want to be excuted (calculated).
 num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
-operations = str(input("Choose the operation (+, -, *, /):"))
+operation = str(input("Choose the operation (+, -, *, /):"))
 
 #calculator
 addition = num1 + num2
@@ -12,7 +12,7 @@ multiply = num1 * num2
 
 
 #Performing the Calculation Using Match Case
-match operations:
+match operation:
     case "+":
           print("The result is", addition, end='')
           print(".")
