@@ -4,6 +4,6 @@ i = 0
 
 while i <= size: 
     for j in range(0, size):
-        print(end="")
-        print("*" * size)
+        print("*" * size, "\n", end="")
+        #print("*" * size) removed it and used one print syntax
     break  # Exit the loop
