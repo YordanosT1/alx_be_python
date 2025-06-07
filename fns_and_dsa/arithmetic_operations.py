@@ -14,7 +14,7 @@ def perform_operation(num1, num2, operation):
             if num2 == 0:
                 result = "Can't be devided"
                 print(result)
-            else:
+            elif num2 > 0 or num2 <0:
                 result = num1 / num2
                 print(result)
 perform_operation
